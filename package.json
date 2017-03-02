@@ -1,0 +1,28 @@
+{
+  "name": "object-key-prefixer",
+  "version": "1.0.0",
+  "description": "Prefix all keys in an object and return a new object with updated keys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goldcaddy77/object-key-prefixer.git"
+  },
+  "keywords": [
+    "javascript",
+    "objects"
+  ],
+  "author": "Dan Caddigan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goldcaddy77/object-key-prefixer/issues"
+  },
+  "homepage": "https://github.com/goldcaddy77/object-key-prefixer#readme",
+  "dependencies": {
+    "debug": "^2.6.1",
+    "aws-sdk": "^2.22.0"
+  },
+  "devDependencies": {}
+}
