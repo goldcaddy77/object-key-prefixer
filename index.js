@@ -1,17 +1,17 @@
 'use strict'
 
-module.exports = prefixer
+module.exports.prefixer = module.exports = prefixer
 
 function prefixer (source, prefix) {
   var prefixed = {}
   var keys
 
-  if (typeof source !== 'object' || !source) {
-    throw new Error('source must be a non-empty object')
+  if (Object.prototype.toString.call(source) !== '[object Object]') {
+    throw new TypeError('source must be an object')
   }
 
   if (typeof prefix !== 'string' || !prefix) {
-    throw new Error('prefix must be a non-empty string')
+    throw new TypeError('prefix must be a non-empty string')
   }
 
   keys = Object.keys(source)
