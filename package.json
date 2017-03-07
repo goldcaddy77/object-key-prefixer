@@ -4,8 +4,9 @@
   "description": "Prefix all keys in an object and return a new object with updated keys",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/ava --verbose",
-    "precommit": "npm test"
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "test": "./node_modules/.bin/ava --verbose"
   },
   "repository": {
     "type": "git",
