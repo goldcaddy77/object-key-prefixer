@@ -4,7 +4,8 @@
   "description": "Prefix all keys in an object and return a new object with updated keys",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "precommit": "npm test"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,7 @@
     "debug": "^2.6.1",
     "aws-sdk": "^2.22.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "husky": "^0.13.2"
+  }
 }
