@@ -1,6 +1,6 @@
 {
   "name": "object-key-prefixer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prefix all keys in an object and return a new object with updated keys",
   "main": "index.js",
   "scripts": {
