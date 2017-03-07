@@ -23,10 +23,6 @@
     "url": "https://github.com/goldcaddy77/object-key-prefixer/issues"
   },
   "homepage": "https://github.com/goldcaddy77/object-key-prefixer#readme",
-  "dependencies": {
-    "aws-sdk": "^2.22.0",
-    "debug": "^2.6.1"
-  },
   "devDependencies": {
     "ava": "^0.18.2",
     "husky": "^0.13.2"
