@@ -3,16 +3,20 @@
 module.exports = prefixer
 
 function prefixer (source, prefix) {
-  let prefixed = {}
+  var prefixed = {}
+  var keys
 
   if (typeof source !== 'object' || !source) {
-    throw new Error('This should have been an object')
+    throw new Error('source must be a non-empty object')
   }
 
-  const keys = Object.keys(source)
-  const keysLen = keys.length
+  if (typeof prefix !== 'string' || !prefix) {
+    throw new Error('prefix must be a non-empty string')
+  }
 
-  for (var i = 0; i < keysLen; i++) {
+  keys = Object.keys(source)
+
+  for (var i = 0; i < keys.length; i++) {
     prefixed[prefix + keys[i]] = source[keys[i]]
   }
 
