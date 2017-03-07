@@ -1,4 +1,7 @@
 # object-key-prefixer
+[<img title="Version" src="https://img.shields.io/npm/v/object-key-prefixer.svg?style=flat-square" />](https://www.npmjs.org/package/serverless-elasticsearch-client)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+[![license](https://img.shields.io/npm/l/serverless.svg)](https://www.npmjs.com/package/serverless)
 
 ## A JavaScript object key prefixer
 
